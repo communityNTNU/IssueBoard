@@ -1,6 +1,6 @@
 // See: https://developer.github.com/v3/issues/
 var issues_numbers = [];
-var api_issue_source = "https://api.github.com/repos/communityNTNU/WatchNTNU/issues?labels=watching";
+var api_issue_source = "https://api.github.com/repos/communityNTNU/Data-for-watchNTNU/issues?";
 $.getJSON(api_issue_source, function (issues) {
     $.each(issues, function (k, d) {
         /*
