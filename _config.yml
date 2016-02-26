@@ -1,0 +1,4 @@
+title: watchNTNU
+markdown: kramdown
+gems:
+  - jekyll-coffeescript
